@@ -1,0 +1,1076 @@
+/* ==========================
+   Google Font & Reset
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+/* ==========================
+   Header
+========================== */
+
+header{
+    background:linear-gradient(135deg,#0077b6,#00b4d8);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+/* ==========================
+   Navigation Bar
+========================== */
+
+nav{
+    background:#023047;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    padding:18px;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ffd700;
+    letter-spacing: 1px;
+}
+
+/* ==========================
+   Hero Section
+========================== */
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+    background:white;
+}
+
+.hero h2{
+    color:#0077b6;
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    width:70%;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.hero button{
+    margin-top:30px;
+    background:#0077b6;
+    color:white;
+    border:none;
+    padding:12px 28px;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.hero button:hover{
+    background:#023047;
+    transform:scale(1.05);
+}
+
+/* ==========================
+   Section Title
+========================== */
+
+.title{
+    text-align:center;
+    color:#0077b6;
+    margin-top:50px;
+    margin-bottom:30px;
+    font-size:34px;
+}
+
+/* ==========================
+   Container
+========================== */
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:20px 40px 50px;
+}
+
+/* ==========================
+   Cards
+========================== */
+
+.card{
+    background:white;
+    width:320px;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.4s ease;
+}
+
+.card:hover{
+    transform:translateY(-12px) scale(1.03);
+    box-shadow:0 15px 30px rgba(0,0,0,0.3);
+}
+
+.card h2{
+    color:#0077b6;
+    margin-bottom:15px;
+}
+
+.card p{
+    line-height:1.7;
+    margin-bottom:20px;
+    text-align:justify;
+}
+
+/* ==========================
+   Buttons
+========================== */
+
+button{
+    background:#0077b6;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s ease;
+}
+
+button:hover{
+    background:#ff6b6b;
+    transform:scale(1.1);
+    box-shadow: 0 0 20px #00b4d8;
+}
+
+/* ==========================
+   About Section
+========================== */
+
+#about{
+    padding:30px 20px;
+    background:#eef7ff;
+}
+
+/* ==========================
+   Destinations Section
+========================== */
+
+#destinations{
+    padding:30px 20px;
+    background:#ffffff;
+}
+
+/* ==========================
+   Tour Packages Section
+========================== */
+
+#packages{
+    padding:30px 20px;
+    background:#eef7ff;
+}
+
+/* ==========================
+   Gallery Section
+========================== */
+
+#gallery{
+    padding:30px 20px;
+    background:#ffffff;
+}
+
+/* ==========================
+   Contact Section
+========================== */
+
+#contact{
+    padding:40px 20px;
+    background:#ffffff;
+}
+
+form{
+    width:100%;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+    outline:none;
+}
+
+input:focus,
+textarea:focus{
+    border:2px solid #0077b6;
+}
+
+
+/* ==========================
+   Responsive Design
+========================== */
+
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .hero h2{
+        font-size:28px;
+    }
+
+    .hero p{
+        width:95%;
+        font-size:16px;
+    }
+
+    .container{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    .card{
+        width:95%;
+    }
+
+    button{
+        width:100%;
+    }
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+    transition: 0.5s;
+}
+
+.card img:hover{
+    transform: scale(1.08);
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:30px;
+}
+
+.gallery img{
+    width:300px;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+/* Search Box */
+.search-box{
+    text-align:center;
+    margin:30px 0;
+}
+
+.search-box input{
+    width:350px;
+    max-width:90%;
+    padding:12px 15px;
+    border:2px solid #0d6efd;
+    border-radius:30px;
+    font-size:16px;
+    outline:none;
+    transition:0.3s;
+}
+
+.search-box input:focus{
+    border-color:#198754;
+    box-shadow:0 0 10px rgba(25,135,84,0.4);
+}
+
+/* Booking Form */
+
+#booking{
+    padding:60px 20px;
+    text-align:center;
+    background:#f8f9fa;
+}
+
+#booking form{
+    width:450px;
+    max-width:90%;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+#booking input,
+#booking select{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+#booking input:focus,
+#booking select:focus{
+    border:2px solid #0d6efd;
+    outline:none;
+}
+
+#booking button{
+    width:100%;
+    padding:12px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#booking button:hover{
+    background:#198754;
+    transform:scale(1.03);
+}
+
+/* Loading Screen */
+
+#loader{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(135deg,#0d6efd,#00b4d8);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    z-index:9999;
+}
+
+#loader h1{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+#loader p{
+    font-size:22px;
+    animation:blink 1s infinite;
+}
+
+@keyframes blink{
+    0%{
+        opacity:1;
+    }
+    50%{
+        opacity:0.4;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+#content{
+    display:none;
+}
+
+/* FAQ Section */
+
+#faq{
+    padding:60px 20px;
+    background:#f8f9fa;
+}
+
+.faq-item{
+    max-width:800px;
+    margin:15px auto;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.2);
+    padding:15px;
+}
+
+.faq-item h3{
+    cursor:pointer;
+    color:#0d6efd;
+    transition:0.3s;
+}
+
+.faq-item h3:hover{
+    color:#198754;
+}
+
+.faq-item p{
+    display:none;
+    margin-top:10px;
+    color:#555;
+    line-height:1.6;
+}
+
+/* Travel Guide */
+
+#guide{
+    padding:60px 20px;
+    background:#eef8ff;
+}
+
+#guide .container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+#guide .card{
+    width:300px;
+    background:#ffffff;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+#guide .card:hover{
+    transform:translateY(-10px) scale(1.03);
+    background:#0d6efd;
+    color:white;
+}
+
+#guide h2{
+    margin-bottom:15px;
+}
+
+#guide p{
+    line-height:1.6;
+}
+
+/* Travel Journey */
+
+.guide-heading{
+    text-align:center;
+    margin-top:40px;
+    color:#0d6efd;
+}
+
+.journey{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:30px;
+}
+
+.step{
+    background:#198754;
+    color:white;
+    padding:15px 20px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.step:hover{
+    transform:scale(1.1);
+    background:#0d6efd;
+}
+
+.arrow{
+    font-size:28px;
+}
+
+/* Weather Section */
+
+#weather{
+    padding:60px 20px;
+    background:#eaf7ff;
+}
+
+#weather .container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+#weather .card{
+    width:250px;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+#weather .card:hover{
+    transform:translateY(-10px);
+    background:#0d6efd;
+    color:white;
+}
+
+#weather h2{
+    margin-bottom:10px;
+}
+
+#weather h3{
+    font-size:28px;
+    margin:10px 0;
+}
+
+#weather p{
+    line-height:1.6;
+}
+
+/* Dark Mode */
+
+.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+.dark-mode header{
+    background:#1f1f1f;
+}
+
+.dark-mode nav{
+    background:#222;
+}
+
+.dark-mode .card{
+    background:#2d2d2d;
+    color:white;
+}
+
+.dark-mode section{
+    background:#181818;
+}
+
+.dark-mode footer{
+    background:#000;
+    color:white;
+}
+
+nav button{
+    margin-left:15px;
+    padding:8px 15px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    background:#198754;
+    color:white;
+    transition:0.3s;
+}
+
+nav button:hover{
+    background:#0d6efd;
+}
+
+/* Back to Top Button */
+
+#topBtn{
+    display:none;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    z-index:99;
+    border:none;
+    outline:none;
+    background:#0d6efd;
+    color:white;
+    cursor:pointer;
+    padding:15px;
+    border-radius:50%;
+    font-size:20px;
+    transition:0.3s;
+}
+
+#topBtn:hover{
+    background:#198754;
+    transform:scale(1.1);
+}
+
+/* Special Offers */
+
+#offers{
+    padding:60px 20px;
+    background:linear-gradient(135deg,#fff3cd,#ffe5b4);
+}
+
+#offers .container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+#offers .card{
+    width:280px;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.4s;
+    border-top:5px solid orange;
+}
+
+#offers .card:hover{
+    transform:translateY(-10px) scale(1.05);
+    background:#ff9800;
+    color:white;
+}
+
+#offers h2{
+    margin-bottom:10px;
+}
+
+#offers p{
+    line-height:1.6;
+}
+
+/* Footer */
+
+#footer{
+    background:#1f1f1f;
+    color:white;
+    padding:40px 20px;
+}
+
+.footer-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    gap:30px;
+}
+
+.footer-box{
+    width:220px;
+}
+
+.footer-box h2{
+    margin-bottom:15px;
+    color:#ffcc00;
+}
+
+.footer-box a{
+    color:white;
+    text-decoration:none;
+    line-height:2;
+}
+
+.footer-box a:hover{
+    color:#00bfff;
+}
+
+.footer-box p{
+    line-height:1.8;
+}
+
+.copyright{
+    text-align:center;
+    margin-top:20px;
+    color:#ccc;
+}
+
+/* Customer Reviews */
+
+#reviewForm{
+    max-width:600px;
+    margin:20px auto;
+    text-align:center;
+}
+
+#reviewForm input,
+#reviewForm select,
+#reviewForm textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+}
+
+#reviewForm button{
+    background:#0d6efd;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+#reviewForm button:hover{
+    background:#198754;
+}
+
+#reviewList{
+    max-width:700px;
+    margin:30px auto;
+}
+
+.review-card{
+    background:white;
+    padding:20px;
+    margin-bottom:15px;
+    border-radius:12px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Responsive Design */
+
+@media (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+    }
+
+    img{
+        width:100%;
+        height:auto;
+    }
+
+    input,
+    textarea,
+    select,
+    button{
+        width:100%;
+    }
+
+    h1{
+        font-size:30px;
+    }
+
+    h2{
+        font-size:24px;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+    #topBtn{
+        bottom:15px;
+        right:15px;
+    }
+}
+
+/* Image Slider */
+
+.slider{
+    width:100%;
+    max-width:900px;
+    margin:20px auto;
+    overflow:hidden;
+    border-radius:15px;
+}
+
+.slide{
+    width:100%;
+    display:none;
+    border-radius:15px;
+}
+
+/* Budget Calculator */
+
+#budget{
+    padding:60px 20px;
+    text-align:center;
+    background:#f4f9ff;
+}
+
+#budget input,
+#budget select{
+    width:300px;
+    padding:12px;
+    margin:10px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+#budget button{
+    padding:12px 25px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+#budget button:hover{
+    background:#198754;
+}
+
+#totalCost{
+    margin-top:20px;
+    color:#ff5722;
+}
+
+/* Booking Receipt */
+
+#receipt{
+    width:350px;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    text-align:left;
+}
+
+#receipt h2{
+    text-align:center;
+    color:green;
+}
+
+#receipt button{
+    width:100%;
+    padding:10px;
+    margin-top:15px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+#receipt button:hover{
+    background:#198754;
+}
+
+@media print {
+
+    body * {
+        visibility: hidden;
+    }
+
+    #receipt,
+    #receipt * {
+        visibility: visible;
+    }
+
+    #receipt {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        width: 90%;
+        padding: 20px;
+        border: 2px solid black;
+        background: white;
+        font-family: Arial, sans-serif;
+    }
+
+    #receipt h1,
+    #receipt h3 {
+        text-align: center;
+    }
+
+    #receipt button {
+        display: none;
+    }
+
+}
+
+/* Destination Popup */
+
+.modal{
+    display:none;
+    position:fixed;
+    z-index:1000;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+}
+
+.modal-content{
+    background:white;
+    width:80%;
+    max-width:500px;
+    margin:60px auto;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    animation:popup 0.4s;
+}
+
+.modal-content img{
+    width:100%;
+    border-radius:10px;
+}
+
+.modal-content h2{
+    color:#0077cc;
+}
+
+.modal-content button{
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.close{
+    float:right;
+    font-size:30px;
+    cursor:pointer;
+}
+
+@keyframes popup{
+
+    from{
+        transform:scale(0.7);
+        opacity:0;
+    }
+
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+
+}
+
+/* Payment Page */
+
+.payment-box{
+
+    width:400px;
+    max-width:90%;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.2);
+    text-align:center;
+
+}
+
+.payment-box h1{
+
+    color:#0077cc;
+
+}
+
+.payment-box input{
+
+    width:90%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+
+}
+
+.payment-box button{
+
+    width:95%;
+    padding:12px;
+    background:#28a745;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+
+}
+
+.payment-box button:hover{
+
+    background:#218838;
+
+}
+
+.card-icons{
+
+    font-size:30px;
+    margin-bottom:15px;
+
+}
+
+.secure-text{
+
+    color:green;
+    font-weight:bold;
+    margin-top:20px;
+
+}
