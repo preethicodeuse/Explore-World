@@ -300,121 +300,121 @@ function viewDetails(place) {
 
         case "Goa":
             title="🏖 Goa";
-            image="images/goa.jpg";
+            image="images/Goa.jpg";
             description="⭐ Rating: 4.8/5\n\n📍 Goa, India\n🌤 Best Time: Nov - Feb\n💰 ₹15,999";
             break;
 
         case "Manali":
             title="🏔 Manali";
-            image="images/manali.jpg";
+            image="images/Manali.jpg";
             description="⭐ Rating: 4.9/5\n\n📍 Himachal Pradesh\n🌤 Best Time: Oct - Feb\n💰 ₹18,999";
             break;
 
         case "Kerala":
             title="🌴 Kerala";
-            image="images/kerala.jpg";
+            image="images/Kerala.jpg";
             description="⭐ Rating: 4.8/5\n\n📍 Kerala\n🌤 Best Time: Sep - Mar\n💰 ₹17,999";
             break;
 
         case "Ooty":
             title="🌄 Ooty";
-            image="images/ooty.jpg";
+            image="images/Ooty.jpg";
             description="⭐ Rating: 4.7/5\n\n📍 Tamil Nadu\n🌤 Best Time: Oct - Jun\n💰 ₹12,999";
             break;
 
         case "Kashmir":
             title="🏞 Kashmir";
-            image="images/kashmir.jpg";
+            image="images/Kashmir.jpg";
             description="⭐ Rating: 4.9/5\n\n📍 Jammu & Kashmir\n🌤 Best Time: Mar - Oct\n💰 ₹22,999";
             break;
 
         case "Mysore":
             title="🏰 Mysore";
-            image="images/mysore.jpg";
+            image="images/Mysore.jpg";
             description="⭐ Rating: 4.7/5\n\n📍 Karnataka\n🌤 Best Time: Oct - Feb\n💰 ₹10,999";
             break;
 
         case "Jaipur":
             title="🕌 Jaipur";
-            image="images/jaipur.jpg";
+            image="images/Jaipur.jpg";
             description="⭐ Rating: 4.8/5\n\n📍 Rajasthan\n🌤 Best Time: Oct - Mar\n💰 ₹14,999";
             break;
 
         case "Andaman":
             title="🏝 Andaman";
-            image="images/andaman.jpg";
+            image="images/Andaman.jpg";
             description="⭐ Rating: 4.9/5\n\n📍 Andaman & Nicobar\n🌤 Best Time: Oct - May\n💰 ₹24,999";
             break;
 
         case "Ladakh":
             title="🏔 Ladakh";
-            image="images/ladakh.jpg";
+            image="images/Ladakh.jpg";
             description="⭐ Rating: 4.9/5\n\n📍 Ladakh\n🌤 Best Time: Jun - Sep\n💰 ₹28,999";
             break;
 
         case "Coorg":
             title="☕ Coorg";
-            image="images/coorg.jpg";
+            image="images/Coorg.jpg";
             description="⭐ Rating: 4.8/5\n\n📍 Karnataka\n🌤 Best Time: Oct - Mar\n💰 ₹13,999";
             break;
 
         case "Munnar":
             title="🌿 Munnar";
-            image="images/munnar.jpg";
+            image="images/Munnar.jpg";
             description="⭐ Rating: 4.9/5\n\n📍 Kerala\n🌤 Best Time: Sep - Mar\n💰 ₹16,999";
             break;
 
         case "Udaipur":
             title="🏰 Udaipur";
-            image="images/udaipur.jpg";
+            image="images/Udaipur.jpg";
             description="⭐ Rating: 4.8/5\n\n📍 Rajasthan\n🌤 Best Time: Oct - Mar\n💰 ₹18,999";
             break;
 
         case "Shimla":
             title="❄ Shimla";
-            image="images/shimla.jpg";
+            image="images/Shimla.jpg";
             description="⭐ Rating: 4.8/5\n\n📍 Himachal Pradesh\n🌤 Best Time: Mar - Jun\n💰 ₹17,499";
             break;
 
         case "Darjeeling":
             title="🚂 Darjeeling";
-            image="images/darjeeling.jpg";
+            image="images/Darjeeling.jpg";
             description="⭐ Rating: 4.8/5\n\n📍 West Bengal\n🌤 Best Time: Mar - May\n💰 ₹16,499";
             break;
 
         case "Manipur":
             title="🌿 Manipur";
-            image="images/manipur.jpg";
+            image="images/Manipur.jpg";
             description="⭐ Rating: 4.6/5\n\n📍 Manipur\n🌤 Best Time: Oct - Apr\n💰 ₹19,999";
             break;
 
         case "Karnataka":
             title="🌳 Karnataka";
-            image="images/karnataka.jpg";
+            image="images/Karnataka.jpg";
             description="⭐ Rating: 4.8/5\n\n📍 Karnataka\n🌤 Best Time: Oct - Mar\n💰 ₹16,999";
             break;
 
         case "Tamil Nadu":
             title="🛕 Tamil Nadu";
-            image="images/tamilnadu.jpg";
+            image="images/TamilNadu.jpg";
             description="⭐ Rating: 4.8/5\n\n📍 Tamil Nadu\n🌤 Best Time: Nov - Mar\n💰 ₹16,499";
             break;
 
         case "Andhra Pradesh":
             title="🏞 Andhra Pradesh";
-            image="images/andhra.jpg";
+            image="images/Andhra.jpg";
             description="⭐ Rating: 4.7/5\n\n📍 Andhra Pradesh\n🌤 Best Time: Oct - Feb\n💰 ₹15,499";
             break;
 
         case "Delhi":
             title="🏛 Delhi";
-            image="images/delhi.jpg";
+            image="images/Delhi.jpg";
             description="⭐ Rating: 4.7/5\n\n📍 Delhi\n🌤 Best Time: Oct - Mar\n💰 ₹13,999";
             break;
 
         case "USA":
             title="🗽 USA";
-            image="images/usa.jpg";
+            image="images/Usa.jpg";
             description="⭐ Rating: 5.0/5\n\n📍 United States\n🌤 Best Time: Apr - Jun\n💰 ₹1,25,000";
             break;
 
